@@ -1,5 +1,9 @@
 html {
   box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   font-family: 'Overpass', sans-serif;
 }
 
@@ -7,7 +11,26 @@ html {
   box-sizing: inherit;
 }
 
-:hover,
-:focus {
+a:hover,
+a:focus {
+  color: #fff;
+}
 
+body {
+  margin: 0;
+}
+
+section {
+  display: grid;
+  grid-template-areas: "intro" "col1" "col2" "col3";
+  gap: 6vmin;
+  padding: 6vmin;
+  background-color: #ff9500;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  color: #fff;
+}
+
+h2 {
+  margin: 0;
+  grid-area: intro;
 }
