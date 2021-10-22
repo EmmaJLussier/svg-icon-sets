@@ -71,7 +71,12 @@ a {
 }
 
 .icon svg {
-
+left: 0;
+height: 100%;
+position: absolute;
+top: 0;
+width: 100%;
+fill: currentColor;
 }
 
 @media only screen and (min-width 38em) {
