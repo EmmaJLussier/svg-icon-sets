@@ -51,5 +51,14 @@ h3 {
 }
 
 p {
+  margin: 0 0 auto;
+}
 
+a {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: .2rem solid;
+  color: #fff;
+  font-size: 1.125rem;
+  text-decoration: none;
 }
