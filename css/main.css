@@ -57,8 +57,12 @@ p {
 a {
   margin-top: 1.5rem;
   padding: 1rem;
-  border: .2rem solid;
+  border: .2rem solid rgba(255, 225, 225, .7);
   color: #fff;
   font-size: 1.125rem;
   text-decoration: none;
+}
+
+@media query {
+
 }
