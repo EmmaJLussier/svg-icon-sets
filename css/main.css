@@ -1,7 +1,13 @@
 html {
   box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+:hover,
+:focus {
+
 }
