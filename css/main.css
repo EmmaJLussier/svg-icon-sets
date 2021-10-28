@@ -8,7 +8,9 @@ html {
   line-height: 1.5;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -36,6 +38,8 @@ section {
 h2 {
   margin: 0;
   grid-area: intro;
+  justify-self: center;
+  font-size: 2rem;
 }
 
 div {
@@ -46,7 +50,7 @@ div {
 }
 
 h3 {
-  margin: 0 0 auto;
+  margin: 0 0 1.5rem;
   font-size: 1.5rem;
 }
 
